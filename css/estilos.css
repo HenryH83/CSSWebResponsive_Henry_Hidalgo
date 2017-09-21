@@ -1,0 +1,58 @@
+*
+{
+	margin:0;
+}
+body
+{
+	color: black;
+	font-size: 1.6vw;
+	background-color: black;
+	font-family: 'Dancing Script', cursive;
+
+}
+#encabezado article
+{
+	box-sizing: border-box;
+	float:left;
+	height: auto;
+	padding: 2%;
+}
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	padding: 2%;
+	height: 200px;
+}
+a
+{
+	color: white;
+}
+/*DESKTOP INICIAL*/
+#encabezado
+{
+	width: 90%;
+	margin: 0 auto;
+	color:white;
+}
+#titulo
+{
+	text-shadow: 2px 2px #02010a;
+	background-color: #5b7989;
+	width: 50%;
+	text-align: left;
+}
+#menu
+{
+	width: 50%;
+	background-color: #5b7989;
+	text-align: right;
+}
+#contenido
+{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.9vw;
+}
