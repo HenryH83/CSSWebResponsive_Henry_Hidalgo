@@ -99,8 +99,12 @@ a
 	transform: translate(20px,-5px);
 	transition-duration:0.5s;
 }
-
-
+#imagen-1,#imagen-2, #imagen-3, #imagen-4, #imagen-5, #imagen-6
+{
+  background-color: #d5c75f;
+	width: 33.33%;
+	height: auto;
+}
 
 /*MEDIDAS DE PANTALLA DESKTOP*/
 @media screen and (max-width: 980px)
@@ -160,6 +164,12 @@ a
 		width: 100%;
 		height: auto;
 	}
+/*PAISAJES - RETRATOS*/
+	#imagen-1,#imagen-2,#imagen-3,#imagen-4,#imagen-5,#imagen-6
+  {
+    width: 100%;
+    height: auto;
+  }
   footer{
     font-size: 5vw;
   }
