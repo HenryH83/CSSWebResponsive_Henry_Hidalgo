@@ -56,3 +56,91 @@ a
 	text-align: center;
 	font-size: 1.9vw;
 }
+
+#imagen-central
+{
+	background-color: #82c3a6;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+#imagen-secundaria1, #imagen-secundaria2
+{
+	background-color: #d5c75f;
+	width: 50%;
+	height: auto;
+}
+/*BORDE RECUADRO*/
+#contenido	img
+{
+	box-shadow:2px 2px #02010a;
+}
+/*TRANSICIONES IMAGENES*/
+#imagen-secundaria1 img:hover
+{
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+	transition-duration: 2s;
+}
+#imagen-secundaria2 img:hover
+{
+	-webkit-transform: translate(20px,-5px);
+	transform: translate(20px,-5px);
+	transition-duration:0.5s;
+}
+
+
+
+/*MEDIDAS DE PANTALLA DESKTOP*/
+@media screen and (max-width: 980px)
+{
+	#encabezado
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	#contenido
+	{
+		width: 90%;
+		height: auto;
+		margin: auto;
+	}
+}
+
+/*MEDIDAS DE PANTALLA MOVIL*/
+@media screen and (max-width: 480px)
+{
+	#contenido
+	{
+		width: 100%;
+		font-size: 5vw;
+	}
+	#encabezado
+	{
+		width: 100%;
+		text-align: center;
+		font-size: 6vw;
+	}
+	#titulo, #menu
+	{
+		width: 100%;
+		text-align: center;
+		height: auto;
+	}
+	#imagen-central,#imagen-secundaria1,#imagen-secundaria2
+	{
+		width: 100%;
+		height: auto;
+	}
+}
+/*IMAGENES ADAPTATIVAS */
+.adaptativa-porcentaje{
+	width:90%;
+}
+.adaptativa-porcentaje1{
+	width:90%;
+}
+.adaptativa-porcentaje2{
+	width:90%;
+}
