@@ -9,6 +9,13 @@ body
 	background-color: black;
 	font-family: 'Dancing Script', cursive;
 
+/*Animación REBOTE*/
+	animation-name: animacion;
+	animation-duration: 2s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 0s;
 }
 #encabezado article
 {
@@ -56,7 +63,6 @@ a
 	text-align: center;
 	font-size: 1.9vw;
 }
-
 #imagen-central
 {
 	background-color: #82c3a6;
@@ -121,6 +127,25 @@ PAISAJES - RETRATOS*/
   background-color: #d5c75f;
 	width: 33.33%;
 	height: auto;
+}
+/*SLIDE IN - Momentos 0,60,100*/
+@keyframes animacion
+{
+0%
+	{
+		position: relative;
+		margin-top: 150%;
+	}
+60%
+	{
+		position: relative;
+		margin-top: -5%;
+	}
+100%
+ {
+	 position: relative;
+	 margin-top: 0%;
+	}
 }
 /*MEDIDAS DE PANTALLA DESKTOP*/
 @media screen and (max-width: 980px)
