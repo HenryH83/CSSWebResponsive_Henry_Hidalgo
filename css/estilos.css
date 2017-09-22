@@ -99,13 +99,29 @@ a
 	transform: translate(20px,-5px);
 	transition-duration:0.5s;
 }
+/* EFECTOS VISUALES FILTROS
+PAISAJES - RETRATOS*/
+#imagen-1 img
+{
+  -webkit-filter: blur(10px);
+  filter:blur(10px);
+}
+#imagen-2 img, #imagen-4 img, #imagen-6 img
+{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imagen-3 img
+{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
 #imagen-1,#imagen-2, #imagen-3, #imagen-4, #imagen-5, #imagen-6
 {
   background-color: #d5c75f;
 	width: 33.33%;
 	height: auto;
 }
-
 /*MEDIDAS DE PANTALLA DESKTOP*/
 @media screen and (max-width: 980px)
 {
@@ -127,7 +143,6 @@ a
     height: auto;
   }
 }
-
 /*MEDIDAS DE PANTALLA MOVIL*/
 @media screen and (max-width: 480px)
 {
